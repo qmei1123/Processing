@@ -1,5 +1,7 @@
+var canvas;
+
 function setup() {
-    createCanvas(1000, 900);
+    createCanvas(window.innerWidth, window.innerHeight);
     background(255, 204, 0);
 }
 
